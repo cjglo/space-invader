@@ -31,6 +31,8 @@ pub fn player_movement(
 
     translation.x += x_direction * player.speed;
     translation.y += y_direction * player.speed;
+    translation.x = translation.x.min(310.0).max(-310.0);
+    translation.y = translation.y.min(250.0).max(-275.0);
 }
 
 

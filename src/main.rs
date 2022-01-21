@@ -4,11 +4,6 @@ use::bevy::prelude::*;
 mod entities;
 mod movement;
 
-// const CAMERA_SPEED: f32 = 1000.0;
-
-// struct Player(u64);
-
-
 fn main() {
      
     App::new()
